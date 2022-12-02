@@ -1,0 +1,33 @@
+.parrafo{
+     
+font-family: Century Gothic,CenturyGothic,AppleGothic,sans-serif; 
+color: #ffffff; 
+font-size: 23px; 
+font-weight: 100;
+width: 300px;
+height: 400px;
+text-align: center; 
+background: #f7afea; 
+margin: 0 0 25px; 
+overflow: hidden; 
+padding: 20px; 
+border-radius: 50%;
+}
+
+.imagen{
+ 
+    width: 20vw;
+}
+
+.btn1{
+    
+    width: 70%;
+    background: rgb(56,124,190);
+    padding: 5px;
+    margin-bottom: 10px;
+    border: 1px solid rgb(244, 129, 198);
+    font-family: Century Gothic,CenturyGothic,AppleGothic,sans-serif; 
+    font-size: 20px;
+    color: rgb(250, 249, 247);
+    border-radius: 30%;
+}
