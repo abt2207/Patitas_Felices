@@ -1,0 +1,144 @@
+
+
+
+/* aplicar al archivo "administrar.php"  */
+
+/*Realizar una tabla responsive es una forma*/
+
+.contenedor{
+    width: 100%;
+    background-color: rgb(39, 139, 197);
+}
+
+.lista{
+    display: flex;
+    list-style-type: none;
+    font-size: 1vw;
+}
+
+
+
+.lista li{
+    margin-left: 1.5vmin;
+    justify-content: center;
+}
+
+.menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #246bc9;
+    
+}
+
+.btn-menu{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    font-size: 1.2em;
+    margin-right: 1em;
+}
+
+/* APLICAR ESTILOS A LA SECCION "SOBRE MI" */
+
+.contenedor h3{
+    margin-top: 5;
+    font-size: 7vmin;
+    text-align: center;
+    font-weight: bold;
+    
+}
+.boton {
+    border: 1px solid #ffffff; /*anchura, estilo y color borde*/
+    padding: 10px; /*espacio alrededor texto*/
+    background-color: #cd7ae2; /*color botón*/
+    color: #ffffff; /*color texto*/
+    text-decoration: none; /*decoración texto*/
+    text-transform: uppercase; /*capitalización texto*/
+    font-family: 'Helvetica', sans-serif; /*tipografía texto*/
+    border-radius: 50px; /*bordes redondos*/
+    }
+
+.table-container{
+    overflow-y: auto;
+}
+
+.table{
+    margin-left: auto;
+    margin-right: auto;
+    empty-cells: hide; /* no funciona si esta el border-collapse */
+}
+
+.table_head{
+    text-align: center;
+    border:1px solid black;
+    border-spacing: 100px;
+    background-color: rgb(0, 0, 0);
+}
+
+.table, .table_data{
+    border:1px solid black;
+    border-spacing: 10px;
+}
+
+.table_data{
+    background-color: rgba(0, 0, 0, 0.765);
+}
+
+.btn_acciones{
+    margin-right: 1rem;
+    text-align: center;
+    color: #fff;
+}   
+
+h3 {
+    color: aliceblue;
+}
+label{
+    color: aliceblue;
+}
+h1 {
+    color: white;
+}
+html,
+body {
+	height: 100%;
+}
+
+body {
+	margin: 0;
+	background: linear-gradient(45deg, #2288db, #ca5cc1);
+	font-family: sans-serif;
+	font-weight: 100;
+}
+
+.container {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+table {
+	width: 1000px;
+	border-collapse: collapse;
+	overflow: hidden;
+	box-shadow: 0 0 20px rgba(0,0,0,0.1);
+}
+
+th,
+td {
+	padding: 15px;
+	background-color: rgba(255,255,255,0.2);
+	color: #fff;
+}
+
+th {
+	text-align: left;
+}
+
+input{
+    background-color: #d279e9;
+    color: #fff
+}
+
